@@ -1,7 +1,16 @@
-contexttimer
-# decord
+langcodes
+pathy
+smart-open
+spacy-legacy
+spacy-loggers
+typer==0.7.*
+thinc
+huggingface_hub
+braceexpand
+portalocker
+antlr4-python3-runtime==4.9.*
 eva-decord
-diffusers<=0.16.0
+contexttimer
 einops>=0.4.1
 fairscale==0.4.4
 ftfy
@@ -25,15 +34,6 @@ timm==0.4.12
 torch>=1.10.0
 torchvision
 tqdm
-transformers==4.33.2
+transformers>=4.25.0,<4.27
 webdataset
 wheel
-torchaudio
-soundfile
-moviepy
-nltk
-peft
-
-easydict==1.9
-pyyaml_env_tag==0.1
-open3d==0.15.1
