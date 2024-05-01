@@ -24,7 +24,7 @@ timm==0.4.12
 torch>=1.10.0
 torchvision
 tqdm
-transformers==4.33.2
+transformers>=4.25.0,<4.27
 webdataset
 wheel
 torchaudio
@@ -35,4 +35,5 @@ peft
 
 easydict==1.9
 pyyaml_env_tag==0.1
-open3d==0.15.1
+open3d==0.15.2
+h5py
