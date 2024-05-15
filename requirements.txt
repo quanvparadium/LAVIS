@@ -1,16 +1,6 @@
-langcodes
-pathy
-smart-open
-spacy-legacy
-spacy-loggers
-typer==0.7.*
-thinc
-huggingface_hub
-braceexpand
-portalocker
-antlr4-python3-runtime==4.9.*
-eva-decord
 contexttimer
+# decord
+diffusers<=0.16.0
 einops>=0.4.1
 fairscale==0.4.4
 ftfy
@@ -37,3 +27,13 @@ tqdm
 transformers>=4.25.0,<4.27
 webdataset
 wheel
+torchaudio
+soundfile
+moviepy
+nltk
+peft
+
+easydict==1.9
+pyyaml_env_tag==0.1
+open3d==0.16.0
+h5py
